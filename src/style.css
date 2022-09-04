@@ -1,17 +1,50 @@
 :root {
   --primary-color: #1ab2a8;
+  --heading-font-family: "Manrope", sans-serif;
+  --default-font-family: "Nunito", sans-serif;
 }
 
 .primary-color {
   color: var(--primary-color);
 }
 
+.hero {
+  color: white;
+  text-align: center;
+  padding: 220px 20px 150px;
+  font-size: larger;
+}
+
 .hero h1 {
   text-transform: uppercase;
+  font-size: 55px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+.hero p {
+  margin-bottom: 88px;
+  font-size: 20px;
+}
+
+.hero-image {
+  background-image: url(/media/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .button-link {
   text-decoration: none;
   background-color: var(--primary-color);
   color: white;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  padding: 20px 32px;
+  border-radius: 35px;
+  transition: all 100ms ease-in-out;
+}
+
+.button-link:hover {
+  color: white;
+  filter: brightness(0.8);
 }
