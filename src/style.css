@@ -1,11 +1,18 @@
 :root {
   --primary-color: #1ab2a8;
+  --secondary-color: #dee0e3;
   --heading-font-family: "Manrope", sans-serif;
   --default-font-family: "Nunito", sans-serif;
 }
 
 .primary-color {
   color: var(--primary-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font-family);
 }
 
 .hero {
@@ -18,7 +25,6 @@
 .hero h1 {
   text-transform: uppercase;
   font-size: 55px;
-  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
@@ -28,23 +34,86 @@
 }
 
 .hero-image {
-  background-image: url(/media/hero.jpg);
+  background-image: url(/images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.betweener-text {
+  margin: 70px 0;
+}
+
+.button-link-outline,
 .button-link {
   text-decoration: none;
-  background-color: var(--primary-color);
-  color: white;
   font-family: var(--heading-font-family);
-  font-weight: bold;
   padding: 20px 32px;
   border-radius: 35px;
-  transition: all 100ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.button-link {
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 18px;
 }
 
 .button-link:hover {
   color: white;
   filter: brightness(0.8);
+}
+
+.button-link-outline {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.button-link-outline:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.description {
+  padding: 50px 30px 0 !important;
+}
+
+.description h2 {
+  font-size: 40px;
+}
+
+.description p {
+  line-height: 27px;
+  text-align: justify;
+  opacity: 0.8;
+}
+
+footer {
+  background: var(--primary-color);
+  margin-top: 80px;
+  height: 100px;
+}
+
+@media (max-width: 992px) {
+  .description {
+    padding: 0 0 40px;
+    text-align: center;
+  }
+
+  .description p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .description h2 {
+    font-size: 35px;
+  }
 }
