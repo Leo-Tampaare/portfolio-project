@@ -15,20 +15,27 @@ h3 {
   font-family: var(--heading-font-family);
 }
 
-.hero {
+.hero,
+.about-hero {
   color: white;
   text-align: center;
   padding: 220px 20px 150px;
   font-size: larger;
 }
 
-.hero h1 {
+.about-hero {
+  padding: 220px 20px 100px;
+}
+
+.hero h1,
+.about-hero h1 {
   text-transform: uppercase;
   font-size: 55px;
   font-weight: bold;
 }
 
-.hero p {
+.hero p,
+.about-hero p {
   margin-bottom: 88px;
   font-size: 20px;
 }

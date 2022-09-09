@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st1{stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g id="Слой_1">
+	<line class="st0" x1="481.8" y1="180.4" x2="481.5" y2="180"/>
+	<line class="st0" x1="526.5" y1="180" x2="526.2" y2="180.4"/>
+	<path class="st1" d="M954,796.5l-427.8-616l-22.2-32l-22.2,32L54,796.5l-24.9,35.6c0,0.1,0.1,0.2,0.1,0.4H979c0,0,0,0,0,0
+		L954,796.5z M504,212.3l156.2,224.2H347.8L504,212.3z M306,796.5H97.1L306,496.6V796.5z M666,796.5H342v-324h324V796.5z M702,796.5
+		V496.6l208.9,299.9H702z"/>
+	<path class="st2" d="M342,472.5v324h324v-324H342z M378,760.5v-180h36v144h108v36H378z M630,544.5H522v144h-36v-144H378v-36h252
+		V544.5z"/>
+	<polygon class="st1" points="522,724.5 522,760.5 378,760.5 378,580.5 414,580.5 414,724.5 	"/>
+	<polygon class="st1" points="630,508.5 630,544.5 522,544.5 522,688.5 486,688.5 486,544.5 378,544.5 378,508.5 	"/>
+	<line class="st0" x1="347.8" y1="436.5" x2="306" y2="436.5"/>
+	<line class="st0" x1="702" y1="832.5" x2="702" y2="796.5"/>
+	<line class="st0" x1="306" y1="496.6" x2="306" y2="441"/>
+	<line class="st0" x1="306" y1="832.5" x2="306" y2="796.5"/>
+</g>
+<g id="Слой_2">
+</g>
+</svg>
