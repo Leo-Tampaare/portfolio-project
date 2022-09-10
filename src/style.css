@@ -15,27 +15,27 @@ h3 {
   font-family: var(--heading-font-family);
 }
 
-.hero,
-.about-hero {
+.homepage-hero,
+.hero {
   color: white;
   text-align: center;
   padding: 220px 20px 150px;
   font-size: larger;
 }
 
-.about-hero {
+.hero {
   padding: 220px 20px 100px;
 }
 
-.hero h1,
-.about-hero h1 {
+.homepage-hero h1,
+.hero h1 {
   text-transform: uppercase;
   font-size: 55px;
   font-weight: bold;
 }
 
-.hero p,
-.about-hero p {
+.homepage-hero p,
+.hero p {
   margin-bottom: 88px;
   font-size: 20px;
 }
@@ -89,13 +89,13 @@ h3 {
 }
 
 .description p,
-.about-content p {
+.content-container p {
   line-height: 27px;
   text-align: justify;
   opacity: 0.8;
 }
 
-.about-content {
+.content-container {
   margin: 80px auto;
   padding: 0 20px !important;
 }
@@ -118,18 +118,18 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .hero h1,
-  .about-hero h1 {
+  .homepage-hero h1,
+  .hero h1 {
     font-size: 40px;
   }
 
-  .hero p,
-  .about-hero p {
+  .homepage-hero p,
+  .hero p {
     font-size: 18px;
   }
 
   .description h2,
-  .about-content h2 {
+  .content-container h2 {
     font-size: 35px;
   }
 }
