@@ -80,8 +80,8 @@ h3 {
   color: white;
 }
 
-.description {
-  padding: 50px 30px 0 !important;
+div.description {
+  padding: 50px 30px 0;
 }
 
 .description h2,
@@ -107,6 +107,43 @@ h3 {
 
 .arts {
   max-width: 1000px !important;
+}
+
+.logo {
+  max-width: 54px;
+  padding-top: 2px;
+}
+
+.nav-container {
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+
+nav {
+  padding: 2px 40px 2px 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #212529;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--primary-color);
 }
 
 footer {
