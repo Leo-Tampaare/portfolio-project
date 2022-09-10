@@ -88,10 +88,16 @@ h3 {
   font-size: 40px;
 }
 
-.description p {
+.description p,
+.about-content p {
   line-height: 27px;
   text-align: justify;
   opacity: 0.8;
+}
+
+.about-content {
+  margin: 80px auto;
+  padding: 0 20px !important;
 }
 
 footer {
@@ -112,15 +118,18 @@ footer {
 }
 
 @media (max-width: 576px) {
-  .hero h1 {
+  .hero h1,
+  .about-hero h1 {
     font-size: 40px;
   }
 
-  .hero p {
+  .hero p,
+  .about-hero p {
     font-size: 18px;
   }
 
-  .description h2 {
+  .description h2,
+  .about-content h2 {
     font-size: 35px;
   }
 }
