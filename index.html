@@ -33,9 +33,17 @@
 
   <body>
     <div class="nav-container">
-      <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="/images/logo.jpg" class="logo" />
+      <nav class="d-flex flex-column flex-sm-row justify-content-sm-between">
+        <div class="brand d-flex">
+          <a href="/" class="">
+            <img src="/images/logo.jpg" class="logo" />
+          </a>
+          <a href="/" class="brand-name">Leo Tampaare</a>
+        </div>
+        <a href="#" class="toggle-button justify-content-between flex-column">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </a>
         <ul>
           <li>
@@ -97,4 +105,6 @@
     </div>
     <footer></footer>
   </body>
+
+  <script src="/src/script.js"></script>
 </html>

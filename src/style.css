@@ -112,6 +112,16 @@ div.description {
 .logo {
   max-width: 54px;
   padding-top: 2px;
+  margin-left: 20px;
+}
+
+a.brand-name {
+  font-size: 20px;
+  padding: 7px 0 0 5px;
+}
+
+a.brand-name:hover {
+  color: #212529;
 }
 
 .nav-container {
@@ -121,11 +131,11 @@ div.description {
 }
 
 nav {
-  padding: 2px 40px 2px 20px;
+  padding: 2px 0;
 }
 
 nav ul {
-  padding: 0;
+  padding: 0 40px 0 0;
   margin: 10px 0;
 }
 
@@ -146,6 +156,22 @@ nav a.active {
   color: var(--primary-color);
 }
 
+.toggle-button {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 30px;
+  height: 20px;
+}
+
+.toggle-button .bar {
+  height: 2px;
+  width: 100%;
+  background-color: #212529;
+  border-radius: 20px;
+}
+
 footer {
   background: var(--primary-color);
   margin-top: 80px;
@@ -163,7 +189,7 @@ footer {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .homepage-hero h1,
   .hero h1 {
     font-size: 40px;
@@ -177,5 +203,27 @@ footer {
   .description h2,
   .content-container h2 {
     font-size: 35px;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  nav li {
+    margin: 0;
+    padding: 8px 20px;
+    border-top: 1px solid var(--secondary-color);
+  }
+
+  nav ul.active {
+    display: flex;
   }
 }
