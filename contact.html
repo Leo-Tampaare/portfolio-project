@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Leo's email, Instagram, GitHub and Telegram profile."
+    />
+    <title>Contact Leo | Leo Tampaare</title>
 
     <link rel="stylesheet" href="/src/style.css" />
     <link
@@ -34,9 +38,9 @@
   <body>
     <div class="nav-container">
       <nav class="d-flex flex-column flex-sm-row justify-content-sm-between">
-        <div class="brand d-flex">
-          <a href="/" class="">
-            <img src="/images/logo.jpg" class="logo" />
+        <div class="brand d-flex" title="Homepage">
+          <a href="/">
+            <img src="/images/logo.jpg" class="logo" alt="Leo Tampaare logo" />
           </a>
           <a href="/" class="brand-name">Leo Tampaare</a>
         </div>
@@ -47,16 +51,18 @@
         </a>
         <ul id="navbar-links">
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Leo">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Leo's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html" class="active">Contact</a>
+            <a href="/contact.html" class="active" title="Contact Leo"
+              >Contact</a
+            >
           </li>
         </ul>
       </nav>
@@ -71,11 +77,25 @@
     <div class="content-container text-center">
       <h2>Email</h2>
       <p class="text-center">
-        <a href="mailto:leotampaare@gmail.com">leotampaare@gmail.com</a>
+        <a href="mailto:leotampaare@gmail.com" title="Contact Leo"
+          >leotampaare@gmail.com</a
+        >
       </p>
       <h2 class="mt-5">Instagram</h2>
       <p class="text-center">
-        <a href="https://www.instagram.com/leo_tampaare/" target="_blank"
+        <a
+          href="https://www.instagram.com/leo_tampaare/"
+          target="_blank"
+          title="Instagram Profile"
+          >@leo_tampaare</a
+        >
+      </p>
+      <h2 class="mt-5">Telegram</h2>
+      <p class="text-center">
+        <a
+          href="https://t.me/leo_tampaare"
+          target="_blank"
+          title="Telegram Profile"
           >@leo_tampaare</a
         >
       </p>
@@ -83,21 +103,42 @@
 
     <footer>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://t.me/leo_tampaare" target="_blank"
+        <a
+          href="https://t.me/leo_tampaare"
+          target="_blank"
+          title="Telegram Profile"
           ><i class="fa-brands fa-telegram"></i>
           <div class="d-none d-sm-block">Telegram</div></a
         >
-        <a href="https://www.instagram.com/leo_tampaare/" target="_blank"
+        <a
+          href="https://www.instagram.com/leo_tampaare/"
+          target="_blank"
+          title="Instagram Profile"
           ><i class="fa-brands fa-instagram"></i>
           <div class="d-none d-sm-block">Instagram</div></a
         >
-        <a href="https://github.com/Leo-Tampaare" target="_blank"
+        <a
+          href="https://github.com/Leo-Tampaare"
+          target="_blank"
+          title="GitHub Profile"
           ><i class="fa-brands fa-github"></i>
           <div class="d-none d-sm-block">GitHub</div></a
         >
       </div>
-      <a href="mailto:leotampaare@gmail.com" class="email-link d-block"
+      <a
+        href="mailto:leotampaare@gmail.com"
+        class="email-link d-block"
+        title="Email Leo"
         >leotampaare@gmail.com</a
+      >
+      <small class="d-block text-center"
+        ><a
+          href="https://github.com/Leo-Tampaare/portfolio-project"
+          target="_blank"
+          title=""
+          >Open source code</a
+        >
+        by Leo Tampaare</small
       >
     </footer>
   </body>

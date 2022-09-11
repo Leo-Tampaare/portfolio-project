@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Front-end engineer, traditional and digital illustrator based in Ukraine. Leo develops apps and sites with HTML, CSS and JavaScript"
+    />
+    <title>About Leo | Leo Tampaare</title>
 
     <link rel="stylesheet" href="/src/style.css" />
     <link
@@ -31,11 +35,12 @@
     ></script>
   </head>
   <body>
+    <body>
     <div class="nav-container">
       <nav class="d-flex flex-column flex-sm-row justify-content-sm-between">
-        <div class="brand d-flex">
-          <a href="/" class="">
-            <img src="/images/logo.jpg" class="logo" />
+        <div class="brand d-flex" title="Homepage">
+          <a href="/">
+            <img src="/images/logo.jpg" class="logo" alt="Leo Tampaare logo" />
           </a>
           <a href="/" class="brand-name">Leo Tampaare</a>
         </div>
@@ -46,16 +51,16 @@
         </a>
         <ul id="navbar-links">
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html" class="active">About</a>
+            <a href="/about.html" class="active" title="About Leo">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Leo's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Leo">Contact</a>
           </li>
         </ul>
       </nav>
@@ -69,7 +74,7 @@
     </div>
     <div class="content-container">
       <div class="container">
-        <div class="row">
+        <div class="row mb-5">
           <div class="col-md-6 col-lg-8">
             <h2>I'm Leo Tampaare</h2>
             <p class="mt-4">
@@ -82,31 +87,56 @@
               JavaScript and some diligence. GitHub griendly, I use it in coding
               process. Also can use Bootstrap and API.
             </p>
+            
           </div>
           <div class="d-none d-md-block col-md-6 col-lg-4 ps-4">
-            <img src="/images/logo.svg" alt="logo" class="img-fluid" />
+            <img src="/images/logo.svg" alt="Leo Tampaare logo" class="img-fluid" />
           </div>
         </div>
+        <div class="text-center text-md-start">
+          <a href="/work.html" class="button-link-outline" title="Leo's work">View my projects</a>
+        </div> 
       </div>
     </div>
 
     <footer>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://t.me/leo_tampaare" target="_blank"
+        <a
+          href="https://t.me/leo_tampaare"
+          target="_blank"
+          title="Telegram Profile"
           ><i class="fa-brands fa-telegram"></i>
           <div class="d-none d-sm-block">Telegram</div></a
         >
-        <a href="https://www.instagram.com/leo_tampaare/" target="_blank"
+        <a
+          href="https://www.instagram.com/leo_tampaare/"
+          target="_blank"
+          title="Instagram Profile"
           ><i class="fa-brands fa-instagram"></i>
           <div class="d-none d-sm-block">Instagram</div></a
         >
-        <a href="https://github.com/Leo-Tampaare" target="_blank"
+        <a
+          href="https://github.com/Leo-Tampaare"
+          target="_blank"
+          title="GitHub Profile"
           ><i class="fa-brands fa-github"></i>
           <div class="d-none d-sm-block">GitHub</div></a
         >
       </div>
-      <a href="mailto:leotampaare@gmail.com" class="email-link d-block"
+      <a
+        href="mailto:leotampaare@gmail.com"
+        class="email-link d-block"
+        title="Email Leo"
         >leotampaare@gmail.com</a
+      >
+      <small class="d-block text-center"
+        ><a
+          href="https://github.com/Leo-Tampaare/portfolio-project"
+          target="_blank"
+          title=""
+          >Open source code</a
+        >
+        by Leo Tampaare</small
       >
     </footer>
   </body>

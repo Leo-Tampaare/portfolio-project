@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Leo Tampaare</title>
+    <meta
+      name="description"
+      content="Leo Tampaare is a front-end engineer, traditional and digital illustrator based in Ukraine"
+    />
+    <title>Front-end developer and illustrator | Leo Tampaare</title>
 
     <link rel="stylesheet" href="/src/style.css" />
     <link
@@ -34,9 +38,9 @@
   <body>
     <div class="nav-container">
       <nav class="d-flex flex-column flex-sm-row justify-content-sm-between">
-        <div class="brand d-flex">
-          <a href="/" class="">
-            <img src="/images/logo.jpg" class="logo" />
+        <div class="brand d-flex" title="Homepage">
+          <a href="/">
+            <img src="/images/logo.jpg" class="logo" alt="Leo Tampaare logo" />
           </a>
           <a href="/" class="brand-name">Leo Tampaare</a>
         </div>
@@ -47,16 +51,16 @@
         </a>
         <ul id="navbar-links">
           <li>
-            <a href="/" class="active">Home</a>
+            <a href="/" class="active" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Leo">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Leo's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Leo">Contact</a>
           </li>
         </ul>
       </nav>
@@ -78,7 +82,11 @@
     <div class="container">
       <div class="row mt-5">
         <div class="d-none d-lg-block col-lg-6">
-          <img src="/images/weather-blur.jpg" class="img-fluid shadow p-3" />
+          <img
+            src="/images/weather-blur.jpg"
+            class="img-fluid shadow p-3"
+            alt="Weather project preview"
+          />
         </div>
         <div class="col-lg-6 description">
           <h2>Weather App</h2>
@@ -86,7 +94,7 @@
             It's the vanilla app with using real data of weather in the city you
             searching, or using your current geolocation.
           </p>
-          <a href="#" class="button-link-outline">Learn more</a>
+          <a href="/work.html" class="button-link-outline">Learn more</a>
         </div>
       </div>
       <div class="row mt-5">
@@ -96,31 +104,56 @@
             Illustrations, drawn on paper using liners. Many characters and
             creatures, borned in head.
           </p>
-          <a href="#" class="button-link-outline">Learn more</a>
+          <a href="/work.html" class="button-link-outline">Learn more</a>
         </div>
         <div class="d-none d-lg-block col-lg-6">
-          <img src="/images/traditional-art.jpg" class="img-fluid shadow p-3" />
+          <img
+            src="/images/traditional-art.jpg"
+            class="img-fluid shadow p-3"
+            alt="Traditional art preview"
+          />
         </div>
       </div>
     </div>
 
     <footer>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://t.me/leo_tampaare" target="_blank"
+        <a
+          href="https://t.me/leo_tampaare"
+          target="_blank"
+          title="Telegram Profile"
           ><i class="fa-brands fa-telegram"></i>
           <div class="d-none d-sm-block">Telegram</div></a
         >
-        <a href="https://www.instagram.com/leo_tampaare/" target="_blank"
+        <a
+          href="https://www.instagram.com/leo_tampaare/"
+          target="_blank"
+          title="Instagram Profile"
           ><i class="fa-brands fa-instagram"></i>
           <div class="d-none d-sm-block">Instagram</div></a
         >
-        <a href="https://github.com/Leo-Tampaare" target="_blank"
+        <a
+          href="https://github.com/Leo-Tampaare"
+          target="_blank"
+          title="GitHub Profile"
           ><i class="fa-brands fa-github"></i>
           <div class="d-none d-sm-block">GitHub</div></a
         >
       </div>
-      <a href="mailto:leotampaare@gmail.com" class="email-link d-block"
+      <a
+        href="mailto:leotampaare@gmail.com"
+        class="email-link d-block"
+        title="Email Leo"
         >leotampaare@gmail.com</a
+      >
+      <small class="d-block text-center"
+        ><a
+          href="https://github.com/Leo-Tampaare/portfolio-project"
+          target="_blank"
+          title=""
+          >Open source code</a
+        >
+        by Leo Tampaare</small
       >
     </footer>
   </body>
