@@ -1,4 +1,5 @@
-function showMenu() {
+function showMenu(event) {
+  event.preventDefault();
   navbarLinks.classList.toggle("menu-active");
 }
 

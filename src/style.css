@@ -93,7 +93,7 @@ div.description {
 .content-container p {
   line-height: 27px;
   text-align: justify;
-  opacity: 0.8;
+  color: #535d66;
 }
 
 .content-container {
@@ -215,6 +215,7 @@ footer {
     width: 100%;
     padding: 0;
     margin-bottom: 0;
+    border-bottom: 1px solid var(--secondary-color);
   }
 
   nav li {
