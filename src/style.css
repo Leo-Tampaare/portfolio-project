@@ -223,7 +223,7 @@ footer {
     border-top: 1px solid var(--secondary-color);
   }
 
-  nav ul.active {
+  nav ul.menu-active {
     display: flex;
   }
 }
